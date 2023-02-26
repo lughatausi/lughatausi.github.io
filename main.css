@@ -1,0 +1,37 @@
+.bg{
+    background-color:white;
+
+}
+
+.button_style{
+    font-family: sans-serif;
+    font-size:19;
+    padding:22px;
+    color:#FFFFFF;
+    border:none;
+    background-color:#dd00dd;
+    border-radius:16px;
+}
+
+.txt1{
+    font-family:sans-serif;
+    font-size:27;
+    color:#dd00dd;
+
+}
+
+.txt2{
+    font-family:sans-serif;
+    font-size:23;
+    color:#dd00dd;
+}
+
+.div_element{
+    background-color:black;
+    border:solid #dd00dd 12px;
+    padding:26px;
+    width:800px;
+    height:800px;
+    opacity:0.9;
+    border-radius:10px;
+}
