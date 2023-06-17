@@ -1,34 +1,60 @@
 .bg{
-    background-color:white;
+    background-color:#000000;
 
+}
+p,  .clickable{
+    font-size: 23px;
+    font-family: sans-serif;
+    color: #ff00ff;
+}
+
+.clickable:hover{
+    color: #00DEDE;
 }
 
 .button_style{
     font-family: sans-serif;
-    font-size:19;
+    font-size:19px;
     padding:22px;
-    color:#FFFFFF;
-    border:none;
-    background-color:#dd00dd;
+    color:#ff00ff;
+    border:2px solid #ff00ff;
+    background-color:#000000;
     border-radius:16px;
+    -webkit-transition: font-size 0.12s ease-in-out;
+    transition: font-size 0.12s ease-in-out;
+}
+.button_style:hover{
+    font-size: 15px;
+    background-color: #00FFEE;
+    color: white;
+    border: none;
+    border-radius: 29px;
+}
+.button_style:onclick{
+    font-size: 12px;
+    background-color: #00FF00;
+    color: white;
+    border: none;
+    border-radius: 31px;
+
 }
 
 .txt1{
     font-family:sans-serif;
-    font-size:27;
-    color:#dd00dd;
+    font-size:27px;
+    color:#ff00ff;
 
 }
 
 .txt2{
     font-family:sans-serif;
-    font-size:23;
-    color:#dd00dd;
+    font-size:23px;
+    color:#ff00ff;
 }
 
 .div_element{
     background-color:black;
-    border:solid #dd00dd 12px;
+    border:solid #ff00ff 5px;
     padding:26px;
     width:800px;
     height:800px;
